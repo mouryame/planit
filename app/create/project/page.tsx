@@ -22,7 +22,7 @@ const Page = () => {
             Status:
             <Input />
           </Label>
-          <Button>Add Project</Button>
+          <Button>Create Project</Button>
         </form>
       </CustomCard>
     </div>
