@@ -1,0 +1,34 @@
+[
+  {
+    "taskID": "T-1",
+    "taskTitle": "user sign in",
+    "taskDescription": "Consider adding user authentication (e.g., login via GitHub or Google) so users can save favorite functions or submit and manage their own functions.",
+    "status": "Todo",
+    "takenUpBy": "No one",
+    "projectId": "P-1",
+    "createdBy": "",
+    "createdAt": "",
+    "changedBy": "",
+    "changedAt": "",
+    "deletedBy": "",
+    "deletedAt": "",
+    "approvedBy": "",
+    "approvedAt": ""
+  },
+  {
+    "taskID": "T-2",
+    "taskTitle": "preview snippets",
+    "taskDescription": "Show a preview snippet of the code with its description right on the landing page, so users don’t have to click through every function to understand what it does. (My take: Show example usage on the card from list, so that user can check if that is the output he is looking for. )",
+    "status": "Todo",
+    "takenUpBy": "No one",
+    "projectId": "P-1",
+    "createdBy": "",
+    "createdAt": "",
+    "changedBy": "",
+    "changedAt": "",
+    "deletedBy": "",
+    "deletedAt": "",
+    "approvedBy": "",
+    "approvedAt": ""
+  }
+]

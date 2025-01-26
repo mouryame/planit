@@ -11,11 +11,12 @@ interface CustomCardProps {
   title?: string;
   description?: string;
   children: React.ReactNode;
+  className?:string;
 }
 
-const CustomCard = ({ title, description, children }: CustomCardProps) => {
+const CustomCard = ({ title, description, children,className }: CustomCardProps) => {
   return (
-    <Card>
+    <Card className={className}>
       {title && (
         <CardHeader>
           <CardTitle>{title}</CardTitle>

@@ -7,5 +7,14 @@
     "progress": 0,
     "createdBy": "Mourya Chiranjeevi",
     "createdAt": "2022-12-12"
+  },
+  {
+    "projectId": "P-2",
+    "projectName": "PlanIt",
+    "projectDesc": "An app to manage your tasks",
+    "status": "Todo",
+    "progress": 0,
+    "createdBy": "Mourya Chiranjeevi",
+    "createdAt": "2022-12-12"
   }
 ]
