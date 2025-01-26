@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children:React.ReactNode;
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
@@ -25,8 +25,7 @@ export default function RootLayout({
       </head>
       <body className={`${nunito.variable} antialiased`}>
         <Navbar />
-        {children}
-        {/* {children} */}
+        <div className="pt-24">{children}</div>
       </body>
     </html>
   );

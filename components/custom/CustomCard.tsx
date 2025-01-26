@@ -11,11 +11,17 @@ interface CustomCardProps {
   title?: string;
   description?: string;
   children: React.ReactNode;
+  className?: string;
 }
 
-const CustomCard = ({ title, description, children }: CustomCardProps) => {
+const CustomCard = ({
+  title,
+  description,
+  children,
+  className,
+}: CustomCardProps) => {
   return (
-    <Card>
+    <Card className={`flex flex-col justify-between ${className || ""}`}>
       {title && (
         <CardHeader>
           <CardTitle>{title}</CardTitle>
